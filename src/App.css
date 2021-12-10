@@ -1,0 +1,57 @@
+@font-face {
+  font-family: RedHat;
+  src: url("https://fonts.google.com/specimen/Red+Hat+Text");
+}
+
+.container {
+  background-image: url("./assets/images/bg-stars.svg");
+  background-color: #201e2b;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  background-image: url("./assets/images/pattern-hills.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25vh;
+  position: absolute;
+  bottom: 0;
+}
+.text {
+  color: hsl(0, 0%, 100%);
+  font-family: RedHat;
+  font-size: 23px;
+  margin-top: 80px;
+}
+.card1 {
+  background-color: hsl(236, 21%, 26%);
+}
+.card2 {
+  background-color: hsl(236, 21%, 26%);
+}
+.card3 {
+  background-color: hsl(236, 21%, 26%);
+}
+.card4 {
+  background-color: hsl(236, 21%, 26%);
+}
+.card-main-container {
+  padding: 14px;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
